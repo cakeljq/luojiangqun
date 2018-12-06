@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/fenlei/fenlei",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mianbao/mianbao",
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D5BFA7",
+    "navigationBarTitleText": "21cake",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#fc0",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "tatic/footer03.jpg",
+        "selectedIconPath": "tatic/footer03.jpg"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath": "tatic/footer02.jpg",
+        "selectedIconPath": "tatic/footer02.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物车",
+        "iconPath": "tatic/cart.jpg",
+        "selectedIconPath": "tatic/cart.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心",
+        "iconPath": "tatic/footer05.jpg",
+        "selectedIconPath": "tatic/footer05.jpg"
+      }
+    ]
+  }
+}
